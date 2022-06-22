@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.keyboard {
+  display: flex;
+    flex-direction: column;
+}
+
+.keyboard-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.keyboard-button {
+  border: solid 1px white;
+  background: gray;
+  padding: 15px;
+  margin: 5px;
+}
+
+.wordle-grid {
+  display: flex;
+    flex-direction: column;
+}
+
+.wordle-grid-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.wordle-grid-square {
+  border: solid 1px white;
+  background: gray;
+  padding: 15px;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+}
